@@ -1,1 +1,30 @@
-permalink: /:title
+title: Xu Maoran
+
+name: Xu Maoran's homepage
+description:  I am Xu Maoran. 
+url: http://moran-xu.github.io
+
+# 自定义post url
+permalink: /blog/:title.html
+timezone: Asia/Beijing
+
+# Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
+safe: true
+lsi: false
+
+markdown: kramdown
+kramdown:
+    input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+    extensions:
+    - autolink
+    - footnotes
+    - smart
+hard_wrap: false
+#  use_coderay: true
+syntax_highlighter: rouge
+#  coderay:
+#  coderay_line_numbers:  nil
+
+# White-listed plugins
+gems:
+  - jekyll-sitemap
