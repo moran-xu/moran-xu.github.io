@@ -1,14 +1,13 @@
-<div class="footer">
-	<div class="row">
-	<div class="col-sm-8">
-<!-- 	<p><small>&copy; Updated: August 2017</small></p> -->
-	<p><small>Last update: Dec 2017.</small></p>
-	</div>
-<!--	bottom right
-	<div class="col-sm-4">
-	<p class="pull-right"><small><a href="/about" title="About this site">About this site</a></small></p>
-	</div>
-	</div>
-</div>
--->
- <!-- /footer -->
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+    <p class="text">{{ site.theme_settings.footer_text }}</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include icons.html %}
+                </ul>
+            </div>
+</footer>
+{% endif %}
+
+
