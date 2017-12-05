@@ -3,11 +3,11 @@
 # only main files contain this front matter, not partials.
 ---
 
-@import 'variables';
-@import 'base';
-@import 'code';
-@import 'post';
-@import 'syntax';
-@import 'layout';
-@import 'pagination';
-@import 'catalogue';
+@import '_variables.scss';
+@import '_base.scss';
+@import '_code.scss';
+@import '_post.scss';
+@import '_syntax.scss';
+@import '_layout.scss';
+@import '_pagination.scss';
+@import '_catalogue.scss';
